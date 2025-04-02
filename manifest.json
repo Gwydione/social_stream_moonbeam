@@ -45,6 +45,7 @@
     "https://beta.socialstream.ninja/websocket/*",
     "https://cozy.tv/*",
     "https://play.afreecatv.com/*?vtype=chat",
+	"https://www.moonbeam.stream/stream-moderation/*"
     "https://kiwiirc.com/nextclient/*",
     "https://webchat.quakenet.org/*",
 	"https://live.nicovideo.jp/watch/*",
@@ -368,6 +369,10 @@
     {
       "js": [ "./sources/bandlab.js" ],
       "matches": [ "https://*.bandlab.com/*" ]
+    },
+	 {
+      "js": [ "./sources/moonbeam.js" ],
+      "matches": ["https://www.moonbeam.stream/stream-moderation/*"]
     },
     {
       "js": [ "./sources/arena.js" ],
